@@ -1,181 +1,56 @@
-
-
-h1 {
-    color: darkred;
-    font-family: 'Comic Sans MS';
-    text-align: center;
+/* Estilo para pruebas.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-.renglon1 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+h1, h2, h3 {
+    color: #333;
 }
 
-.ligas {
-    padding: 20px 20px;
-    background-color: burlywood;
-    text-align: center;
-    font-size: 20px;
+a {
+    color: #0066cc;
     text-decoration: none;
 }
 
-.ligas {
-    color: whitesmoke;
-    justify-content: center;
-    align-items: space-around;
-    list-style: none;
-    
+a:hover {
+    text-decoration: underline;
 }
-.ligas a {
+
+.button, .boton2, .boton3, .boton4 {
     display: inline-block;
-    margin-right: 50px; 
-    padding: 10px 20px; 
-    text-decoration: none; 
-    color: whitesmoke; 
-    
-}
-
-
-.tit {
-    background-image: url(https://www.publicdomainpictures.net/pictures/10000/velka/book-tunnel-11287160032j7BO.jpg);
-    color: whitesmoke;
-    padding: 100px;
-    margin-top: auto;
-    margin-inline: auto;
-    
-}
-
-.viv {
-    font-family: 'cursive';
-}
-
-h2{
-    color: darkred;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-}
-
-.lib {
-    color: darkred;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-}
-
-
-.STORE {
-    display: grid;
-    grid-template-columns: repeat(4, 400px);
-    text-align: auto;
-}
-
-.libro {
-    display: grid;
-    grid-template-columns: repeat(4, 400px);
-}
-
-
-img{
-    width: 15%;
-    height: 70%;  
-    
- }
-
- .boton2 {
-    padding: 10px 10px;
-    font-size: 16px; 
-    border: none; 
-    background-color: darkred;
-    ;
-    color: #ffffff; 
-    cursor: pointer; 
-}
-
-
-.boton3 {
-    padding: 5px 5px;
-    font-size: 16px; 
-    border: none; 
-    background-color: green;
-    color: #ffffff; 
-    cursor: pointer; 
-}
-
-.item {
-    margin: 0px; 
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
     text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 
-.item h3 {
-    margin-top: 0px; 
-}
-.item img {
-    width: 30%; 
-    height: auto; 
+.button:hover, .boton2:hover, .boton3:hover, .boton4:hover {
+    background-color: #3e8e41
 }
 
-.item2 {
-    padding: 0px; 
-    text-align: center;
+.button:active, .boton2:active, .boton3:active, .boton4:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
-.item2 img {
-    width: 30%; 
-    height: auto; 
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-
-.desc{
-    color: red;
-}
-
-.tim img {
-    float: right;
-    font-size: 1000px; 
-    width: 40%;
-}
-
-.tim {
-    background-color: white;
-    overflow: auto;
-    text-align: auto;
-    font-size: 20px;
-    padding: 20px;
-
-}
-
-.te {
-    color: darkred; 
-    text-align: center;
-    font-size: 30px;
-}
-.scroll {
-    max-height: 300px; 
-    overflow-y: auto; 
-}
-.fot {
-    display: grid;
-    grid-template-columns: repeat(3, 500px);
-    text-align: auto;
-    margin: auto;
-
-}
-
-.fot{
-    color: white;
-    background-color: burlywood ;
-}
-
-.boton4 {
-    padding: 5px 5px;
-    font-size: 16px; 
-    border: none; 
-    background-color: red;
-    color: #ffffff; 
-    cursor: pointer; 
-}
-
-.fot {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-    gap: 240px; 
-  }
